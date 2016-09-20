@@ -9,12 +9,11 @@ build:
     - git remote set-url origin https://github.com/cognoma/sandbox
 
     - git checkout master
-    - git pull
     - git add sandbox_contributors.md
     - git commit -a -m "Drone Build [skip ci] [ci skip]"
     - git remote set-url origin https://gwaygenomics:$$GIT_PUBLISH_KEY@github.com/cognoma/sandbox.git
     - git stash
-    - git push
+    - git push --set-upstream origin master
 
 branches:
   - staging
