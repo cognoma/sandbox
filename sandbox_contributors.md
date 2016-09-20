@@ -1,5 +1,6 @@
 Here are all of the people playing in the sandbox:
 
+* autoka
 * cgreene
 * claire
 * georgez
