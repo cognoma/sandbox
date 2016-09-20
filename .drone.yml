@@ -1,0 +1,17 @@
+build:
+  image: cognoma/sandbox:latest
+  commands:
+    - python list_contributors.py
+
+      #    - git config user.email "cognoma@greenelab.com"
+      # - git config user.name "cognoma"
+      # - git config --global push.default simple
+      #- git remote set-url origin https://github.com/cognoma/sandbox
+
+      #- git checkout master
+      #- git add sandbox_contributors.md
+      #- git commit -a -m "Drone Build [skip ci] [ci skip]"
+      #- git remote set-url origin 
+
+branches:
+  - staging
